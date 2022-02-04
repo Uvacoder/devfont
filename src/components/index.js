@@ -1,6 +1,5 @@
 export * from "./atoms"
 export { default as GlobalStyles } from "./global-styles"
-export { default as MessageTop } from "./message-top"
 export { default as Header } from "./header"
 export { default as Footer } from "./footer"
 export { default as Head } from "./head"
