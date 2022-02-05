@@ -1,7 +1,7 @@
 const website = {
   name: "Devfont",
   author: "@uvacoder",
-  url: "https://devfont.com",
+  url: "https://devfont.vercell.ap",
   gaTrackingId: "UA-156157580-3",
   description: "Beautiful open source hand-crafted SVG icon set for designers and developers. Free for both personal and commercial use. Made by @uvacoder"
 }
