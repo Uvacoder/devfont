@@ -23,16 +23,16 @@ const StyledSection = styled(Container)`
 
 const author = (
   <OutboundLink
-    href="https://alexperronnet.io"
+    href="https://abclinks.vercel.app"
     onClick={() => logOutboundLink("author")}
   >
-    @alexperronnet
+    @uvacoder
   </OutboundLink>
 )
 
 const github = (
   <OutboundLink
-    href="https://github.com/alexperronnet/devfont"
+    href="https://github.com/uvacoder/devfont"
     onClick={() => logOutboundLink("GitHub")}
   >
     GitHub
@@ -68,7 +68,7 @@ const sprite = (
 
 const guidelines = (
   <OutboundLink
-    href="https://github.com/alexperronnet/devfont/blob/master/contributing.md"
+    href="https://github.com/uvacoder/devfont/blob/master/contributing.md"
     onClick={() => logOutboundLink("contribution guidelines")}
   >
     contribution guidelines
@@ -77,7 +77,7 @@ const guidelines = (
 
 const license = (
   <OutboundLink
-    href="https://github.com/alexperronnet/devfont/blob/master/license.md"
+    href="https://github.com/uvacoder/devfont/blob/master/license.md"
     onClick={() => logOutboundLink("License")}
   >
     MIT License
