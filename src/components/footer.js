@@ -37,24 +37,19 @@ const StyledFooter = styled.footer`
 `
 
 const license = (
-  <OutboundLink href="https://github.com/alexperronnet/devfont/blob/master/license.md" onClick={() => logOutboundLink("License")}>
+  <OutboundLink href="https://github.com/uvacoder/devfont/blob/master/license.md" onClick={() => logOutboundLink("License")}>
     MIT License
   </OutboundLink>
 )
 
 const externalLinks = [
   {
-    href: "https://github.com/alexperronnet/devfont/releases",
+    href: "https://github.com/uvacoder/devfont/releases",
     log: "Release",
     title: "Release notes"
   },
   {
-    href: "https://www.figma.com/file/6UxYVimMRFLHuyPXBlxkkj/devfont-icons?node-id=4%3A154",
-    log: "Figma",
-    title: "Figma library"
-  },
-  {
-    href: "https://github.com/alexperronnet/devfont.com",
+    href: "https://github.com/uvacoder/devfont",
     log: "Source",
     title: "View source"
   }
@@ -68,7 +63,7 @@ export default function Footer() {
       <div className="content">
         <div className="copyright">
           <OutboundLink 
-            href="https://alexperronnet.io" 
+            href="https://abclinks.vercel.app." 
             className="author" 
             onClick={() => logOutboundLink("author")}
           >
