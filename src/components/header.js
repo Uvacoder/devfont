@@ -121,13 +121,13 @@ const InternalLinks = () => (
 const ExternalLinks = () => (
   <div className="external-links">
     <OutboundLink
-      href="https://github.com/alexperronnet/devfont"
+      href="https://github.com/uvacoder/devfont"
       onClick={() => logOutboundLink("GitHub")}
     >
       GitHub
     </OutboundLink>
     <OutboundLink
-      href="https://github.com/alexperronnet/devfont/issues"
+      href="https://github.com/uvacoder/devfont/issues"
       onClick={() => logOutboundLink("Request")}
     >
       Request
@@ -165,7 +165,7 @@ export default function Header() {
           <div className="right-side">
             <InternalLinks />
             <Button
-              href="https://github.com/alexperronnet/devfont/issues"
+              href="https://github.com/uvacoder/devfont/issues"
               icon="lifebuoy"
               color="red"
               onClick={() => logOutboundLink("Request")}
